@@ -1,6 +1,6 @@
 package com.divyeshbc.toolbar;
 
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 /**
@@ -8,7 +8,7 @@ import android.support.v7.widget.Toolbar;
  */
 
 //Creating a Base Activity class that can be used throughout the app consisting of shared activities
-public class BaseActivity extends ActionBarActivity {
+public class BaseActivity extends AppCompatActivity {
 
     //Variable to store the Toolbar
     private Toolbar mToolbar;
